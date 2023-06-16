@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.stylish-text {
+    font-size: 24px;
+    color: #ff6600;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+}
+
+.acknowledgement {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
