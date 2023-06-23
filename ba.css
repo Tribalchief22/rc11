@@ -1,28 +1,45 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
+}
+
+.text-wrapper {
+    text-align: center;
 }
 
 .cringe-text {
     font-family: 'Arial', sans-serif;
-    font-size: 36px;
-    color: #ff4081;
-    text-align: center;
-    background: linear-gradient(45deg, #ff4081, #ff8f00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: rainbow 5s linear infinite;
+    font-size: 24px;
+    color:#ff6600; 
+    margin: 0;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 2px solid #ff6600;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-@keyframes rainbow {
-    0% { color: #ff4081; }
-    14% { color: #ff4f6d; }
-    28% { color: #ff5e59; }
-    42% { color: #ff6d45; }
-    57% { color: #ff7c31; }
-    71% {
+.next-page-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.next-page-button:hover {
+    background-color: #9acaf1;
+}
